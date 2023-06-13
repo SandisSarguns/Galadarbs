@@ -5,7 +5,7 @@ if (!isset($_SESSION['user'])) {
     header('Location: login.html');
     exit();
 }
-
+error_reporting(0);
 $user = $_SESSION['user'];
 ?>
 <!DOCTYPE html>
