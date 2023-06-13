@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="favicon1.ico" type="image/x-icon" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login form</title>
+        <link rel = "stylesheet" href = "loginstyle.css">
+    </head>
+<body>
+<fieldset>
+    <h1>Administratora ielogošanās</h1>
+<form action="auth.php" method="POST">
+    <label for="username">Lietotājvārs:</label>
+    <input type="text" id="username" placeholder = "Lietotājvārds" name="username" required><br>
+    <label for="password">Parole:</label>
+    <input type="password" id="password"  placeholder = "Parole" name="password" required><br>
+    <input type="submit" value="Ielogoties">
+</form>
+</fieldset>
+</body>
+</html>

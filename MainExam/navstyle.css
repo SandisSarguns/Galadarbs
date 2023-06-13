@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.mySlides {
+    display: none;
+}
+img {
+    vertical-align: middle;
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+.logo {
+    right: 50px;
+}
+header {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 75px;
+    font-weight: bold;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: darkgray;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active {
+    background-color: steelblue;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.topnav {
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    width: 20%;
+}
+.slidetext {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 12px;
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+}
+.nav {
+    width: 100%;
+    background-color: steelblue;
+    overflow: auto;
+    border: 3px solid rgb(34, 88, 133);
+}
+.nav a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%;
+    text-align: center;
+    font-weight: bold;
+}
+.nav a:hover {
+    background-color: rgb(34, 88, 133);
+}
+
+
