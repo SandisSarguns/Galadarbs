@@ -15,9 +15,10 @@ include "navbar.php";
 
 <div class="upperbox">
     <div class="bigtext">PAR MUMS:</div>
-    <div class="text up">Main apraksts</div>
-    <div class="text up2">Auto serviss vietējais. Nesen parādījies autoserviss Cēsīs, lai sniegtu mūsu klientiem gatantēti
-        labi izdarītu darbu, lai jūsu auto labi darbotos un skaisti izskatītos.  </div>
+   <div class="text up">Autoserviss vietējais. Nesen parādījies autoserviss Cēsīs, lai sniegtu mūsu klientiem gatantēti
+        labi izdarītu darbu, lai jūsu auto labi darbotos un skaisti izskatītos. </div>
+    <div class="text up2"> Autoserviss ir ļoti jauns apkārtnē un ir spējīgs nest konkurētspējīgu auto remontdarbu izpildi,
+        garantējot klientos pārliecību problēmu gadījumā veikt pieteiumu pie mums!.   </div>
 
 </div>
 <div class ="midbox">
