@@ -1,7 +1,7 @@
 <?php
 include "db.php";
 include "navbar.php";
-?>
+?> 
 <html>
 <link rel="stylesheet" href="aboutstyle.css">
 <head>
