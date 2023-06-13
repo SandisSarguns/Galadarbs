@@ -1,0 +1,2 @@
+# Galadarbs
+Kvalifikācijas eksāmens
