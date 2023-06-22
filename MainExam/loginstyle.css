@@ -12,6 +12,8 @@ fieldset {
     flex-direction: column;
     min-height: 100vh;
     background-image: url("loginbilde.jpg");
+        background-repeat: no-repeat;
+    background-size: 100% 100%;
     }
     .h1 {
         text-align: center;
